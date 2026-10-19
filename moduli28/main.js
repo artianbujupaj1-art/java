@@ -1,8 +1,8 @@
 var button1=document.getElementById("btn1")
 
-button1.onclick=function(){
-    alert('hello')
-}
+//button1.onclick=function(){
+    //alert('hello')
+//}
 
 var button2=document.querySelector('button')
 button2.onclick=function(){
@@ -38,4 +38,23 @@ button5.onclick=function(){
     text.style.padding="100px";
     text.style.backgroundColor="blue"
     text.style.fontSize="400px";
+}
+
+
+btn1.onclick=function(){
+    txt1.setAttribute("class","txt1")
+}
+
+btn6.onmouseover=function(){
+    txt2.style.cssText=("color: red; background-color: black;")
+}
+
+btn7.onclick=function(){
+    txt3.setAttribute("class","txt3")
+}
+
+var btnCircle=document.getElementById("ShowCircle")
+var circle=document.getElementById("circle")
+btnCircle.onclick=function(){
+    circle.setAttribute("class","circle")
 }

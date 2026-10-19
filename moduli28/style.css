@@ -1,0 +1,16 @@
+.txt1{
+    background-color: aqua;
+    font-size: 100px;
+    padding: 50px;
+}
+
+.txt3{
+    display: none;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: red
+}

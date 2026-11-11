@@ -22,6 +22,7 @@ var text=document.getElementById("text")
 
 button.onlick=function(){
     text.innerHTML = parseInt(input.value) + parseInt(input2.value)
-}
+};
+export var text3 = "";
 
 

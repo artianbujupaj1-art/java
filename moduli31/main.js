@@ -27,13 +27,13 @@ for (x in person){
 }
 console.log(text3)
 
-var students=['Fadil','Farati','Irbani']
+//var students=['Fadil','Farati','Irbani']
 
-var y;
+//var y;
 
-for(y of person){
-    document.write=(y  + "<br>")
-}
+//for(y of person){
+    //document.write=(y  + "<br>")
+//}
 
 var txt="gfdsagiufesglkhfwq"
 var o;
@@ -66,4 +66,20 @@ for(q=0;q<molla.length;q++){
     text2 += molla[q] + "  ";
 } 
 console.log(text2)
+
+var students=['Fadil','Farati','Irbani']
+
+var input=document.getElementById("name_input")
+var btn=document.getElementById("btnAdd")
+var btnShow=document.getElementById("btnShow")
+
+btnAdd.onclick=function(){
+    students.push(name_input.value)
+}
+
+btnShow.onclick=function(){
+    for (var i=0;i<students.length;i++){
+        document.write(students[i]+"<br>")
+    }
+}
 

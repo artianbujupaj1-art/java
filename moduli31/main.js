@@ -70,7 +70,7 @@ console.log(text2)
 var students=['Fadil','Farati','Irbani']
 
 var input=document.getElementById("name_input")
-var btn=document.getElementById("btnAdd")
+var btnAdd=document.getElementById("btnAdd")
 var btnShow=document.getElementById("btnShow")
 
 btnAdd.onclick=function(){

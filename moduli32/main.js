@@ -36,6 +36,27 @@ document.getElementById("result9").innerHTML = text.match(regex6);
 var regex7= /u+/g;
 document.getElementById("result10").innerHTML = text2.match(regex7);
 
+var text3 = "hey hii hiiiii"
+var regex8 = /hi?/g;
+document.getElementById("result10"),innerHTML = text3.match(regex8)
+
+var text4 = "hey hii hiiiii"
+var regex9 = /i{3}/g;
+document.getElementById("result11"),innerHTML = text4.match(regex9)
+
+var text5 = "hey hii hiiiii"
+var regex10 = /i{2,5}/g;
+document.getElementById("result12"),innerHTML = text5.match(regex10)
+
+var text6 = "hey hii hello"
+var regex11 = /ello$/g;
+document.getElementById("result13"),innerHTML = text6.match(regex11)
+
+var text7 = "hey hii hello"
+var regex12 = /^he/g;
+document.getElementById("result14"),innerHTML = text7.match(regex12)
+
+
 
 
 
